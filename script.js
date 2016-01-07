@@ -4,21 +4,24 @@
 
 // Example 1-1: stroke and fill
 var x;
-
+var count;
 function setup() {
   createCanvas(480, 270);
   stroke(0); 
   fill(150);
   x=0;
+  count=0;
 }
 
 function draw() {
   background(255);
+  text(count,240,40);
   rect(x,50,50,100);
   x=x+1;
   if (touchIsDown){
     if (touchX>x && touchX<x+50 && touchY>50 && touchY<150){
       x=-50;
+      count+=1;
     }
   }
   
