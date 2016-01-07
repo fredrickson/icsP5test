@@ -17,6 +17,9 @@ function setup() {
 
 function draw() {
   background(255);
+  noFill();
+  rect(1,1,478,638);
+  fill(255,0,0);
   text(count,240,40);
   rect(x,y,50,100);
   x=x+1;
