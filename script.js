@@ -7,7 +7,7 @@ var x;
 var y;
 var count;
 function setup() {
-  createCanvas(480, 270);
+  createCanvas(480, 640);
   stroke(0); 
   fill(150);
   x=0;
