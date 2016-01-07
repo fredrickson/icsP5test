@@ -14,6 +14,12 @@ function setup() {
 
 function draw() {
   background(255);
-  rect(x,50,5,100);
+  rect(x,50,50,100);
   x=x+1;
+  if (touchIsDown){
+    if (touchX>x && touchX<x+50 && touchY>50 && touchY<150){
+      x=-50;
+    }
+  }
+  
 }
