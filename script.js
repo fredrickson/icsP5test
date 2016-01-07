@@ -14,6 +14,6 @@ function setup() {
 
 function draw() {
   background(255);
-  rect(x,50,75,100);
+  rect(x,50,5,100);
   x=x+1;
 }
