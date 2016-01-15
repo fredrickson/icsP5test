@@ -2,6 +2,13 @@
 // Daniel Shiffman
 // http://www.learningprocessing.com
 
+// **********
+// TRY THIS WILL http://jsbin.com/ripiqebane/edit?html,js,output
+//
+//
+
+
+
 // Example 1-1: stroke and fill
 var x;
 var y;
