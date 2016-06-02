@@ -30,12 +30,12 @@ function draw() {
   text(count,240,40);
   rect(x,y,50,100);
   x=x+1;
-  if (touchIsDown){
-    if (touchX>x && touchX<x+50 && touchY>y && touchY<y+100){
+  //if (touchIsDown){
+    if (x>displayWidth){//touchX>x && touchX<x+50 && touchY>y && touchY<y+100){
       x=-50;
       count+=1;
       y=random(50,500);
     }
-  }
+  //}
   
 }
