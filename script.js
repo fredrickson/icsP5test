@@ -16,7 +16,7 @@ var count;
 function setup() {
   createCanvas(displayWidth, displayHeight);
   stroke(0); 
-  fill(150);
+  fill(88);
   x=0;
   y=50;
   count=0;
